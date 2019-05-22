@@ -1,12 +1,12 @@
 ﻿server:
-  port: 9000
+  port: 9001
 spring:
   application:
-    name: clouddemo-config-client
+    name: clouddemo-config-client-dev
 eureka:
  client:
   service-url:
-   defaultZone: http://eureka-test.com:7001/eureka/
+   defaultZone: http://eureka-dev.com:7001/eureka/
 info:
   application:
     name: ${spring.application.name}
