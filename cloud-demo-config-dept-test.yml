@@ -7,7 +7,7 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml		#mapper映射文件
 spring:
   application:
-    name: cloud-deptvv  #应用名称
+    name: cloud-dept  #应用名称
   datasource:
     url: jdbc:mysql://localhost:3306/cloud2?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
     username: root
